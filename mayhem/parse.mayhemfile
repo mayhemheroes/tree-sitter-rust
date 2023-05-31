@@ -1,0 +1,7 @@
+project: tree-sitter-rust
+target: parse
+image: ghcr.io/lotdeef/tree-sitter-rust:latest
+cmds:
+    - cmd: /parse
+testsuite:
+    - file://examples
