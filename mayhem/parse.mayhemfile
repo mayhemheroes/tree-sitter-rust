@@ -1,0 +1,6 @@
+project: tree-sitter-rust
+target: parse
+cmds:
+    - cmd: /parse
+testsuite:
+    - file://examples
